@@ -1,0 +1,44 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wa-bot",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-07",
+  // "compatibility_flags": [
+  //   "nodejs_compat"
+  // ],
+  "vars": {
+    "MY_PHONE_NUMBER": "6289513259281",
+    "WORKER_URL": "https://wa-bot.bilhaq-wa-bot.workers.dev",
+    "UPSTASH_REDIS_REST_URL": "https://capable-puma-207982.upstash.io",
+    "UPSTASH_REDIS_REST_TOKEN": "gQAAAAAAAyxuAAIgcDJjNDM1MGJhNDI4MDU0YjUzOTgwYmEwOGY0YWRhMjhkNw",
+    "QSTASH_URL": "https://qstash-us-east-1.upstash.io",
+    "QSTASH_TOKEN": "eyJVc2VySUQiOiI3MGIwZjNkNC02ZGZjLTRiZjAtYjJjNy03MWZmOTAzYzdhZDIiLCJQYXNzd29yZCI6ImMzMjc0MTIwODE2ZjQ3NDBiYjdlODZlZmNjYmQxN2ZjIn0=",
+    "FONNTE_TOKEN": "2ih6Ff91QyTaaw2FtSjH"
+  },
+  // "kv_namespaces": [
+  //   {
+  //     "binding": "MY_KV_NAMESPACE",
+  //     "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  //   }
+  // ],
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "my-bucket"
+  //   }
+  // ],
+  // "d1_databases": [
+  //   {
+  //     "binding": "MY_DB",
+  //     "database_name": "my-database",
+  //     "database_id": ""
+  //   }
+  // ],
+  // "ai": {
+  //   "binding": "AI"
+  // },
+  // "observability": {
+  //   "enabled": true,
+  //   "head_sampling_rate": 1
+  // }
+}
