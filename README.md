@@ -64,7 +64,3 @@ Saat membuat ekstensi atau handler baru, jangan lupa untuk mendefinisikan `Cloud
 // src/index.ts
 const app = new Hono<{ Bindings: CloudflareBindings }>()
 ```
-
-## 📜 Lisensi
-
-Proyek ini dibuat untuk keperluan pribadi dan pembelajaran.
